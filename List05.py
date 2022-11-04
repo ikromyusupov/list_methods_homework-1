@@ -9,10 +9,5 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    x = numbers1[-1]
-    numbers1.pop(-1)
-    numbers2.insert(0,x)
-    numbers1.extend(numbers2)
-    return numbers1
-print(main(["sA",3,432,"FFG"],[1,2,3,4]))
+    return numbers1 + numbers2
 
