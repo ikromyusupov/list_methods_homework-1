@@ -6,4 +6,10 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    c=[fruits.count("apple")]
+    i=0
+    while i<len(fruits):
+        if fruits[i]=='apple':
+            c.append(i)
+        i+=1
+    return c
