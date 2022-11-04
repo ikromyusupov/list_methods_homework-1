@@ -11,4 +11,5 @@ def main(numbers1, numbers2):
     """
     x = numbers1[-1]
     numbers1.pop(-1)
-    return numbers2.insert(0,x)
+    numbers2.insert(0,x)
+    return numbers2
